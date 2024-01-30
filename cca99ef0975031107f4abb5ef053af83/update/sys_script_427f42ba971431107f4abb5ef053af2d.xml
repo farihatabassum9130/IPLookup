@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Incident Record n Target Instance</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var request = new sn_ws.RESTMessageV2('Incident Integration', 'Incident_Record_Creation');
+	request.setStringParameterNoEscape('caller', current.caller_id);
+	request.setStringParameterNoEscape('short_description', current.short_description);
+	request.setStringParameterNoEscape('category', current.category);
+	request.setStringParameterNoEscape('impact', current.impact);
+	request.execute();
+	
+	var response=request.execute();
+	var requestBody=request.getRequestBody();
+	var responseBody=response.getBody();
+	var httpStatus=response.getStatusCode();
+	
+	responseJSON=responseBody.substring(10,responseBody.length-1);
+	parsedJSON=JSON.parse(responseJSON);
+	
+	var targetIncidentNumber=parsedJSON['number'];
+	var targetIncidentsysid=parsedJSON['sys_id'];
+	
+	var logString='Target Incident Number - '+targetIncidentNumber+ '\n Target Incident Sys_id' +targetIncidentsysid;
+	gs.log(logString, 'BR- Create Incident Record n Target Instance')
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-31 18:50:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>427f42ba971431107f4abb5ef053af2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create Incident Record n Target Instance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IPLookup" source="x_1068059_iplookup">cca99ef0975031107f4abb5ef053af83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</sys_scope>
+        <sys_update_name>sys_script_427f42ba971431107f4abb5ef053af2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-31 19:31:03</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=427f42ba971431107f4abb5ef053af2d"/>
+</record_update>

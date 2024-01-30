@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1068059_iplookup_liaison_agency">x_1068059_iplookup_liaison_agency</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LIA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 20:56:38</sys_created_on>
+        <sys_id>359a1b75979431107f4abb5ef053af2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LIA</sys_name>
+        <sys_package display_value="IPLookup" source="x_1068059_iplookup">cca99ef0975031107f4abb5ef053af83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</sys_scope>
+        <sys_update_name>sys_number_359a1b75979431107f4abb5ef053af2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 20:56:38</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</application>
+        <file_path/>
+        <instance_id>e776e7c8dbd75918b847ac44d49619ed</instance_id>
+        <instance_name>dev144218</instance_name>
+        <name>sys_number_359a1b75979431107f4abb5ef053af2a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1068059_iplookup_liaison_agency">x_1068059_iplookup_liaison_agency</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>LIA</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-28 20:56:38</sys_created_on><sys_id>359a1b75979431107f4abb5ef053af2a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LIA</sys_name><sys_package display_value="IPLookup" source="x_1068059_iplookup">cca99ef0975031107f4abb5ef053af83</sys_package><sys_policy/><sys_scope display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</sys_scope><sys_update_name>sys_number_359a1b75979431107f4abb5ef053af2a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-28 20:56:38</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-261522779</payload_hash>
+        <record_name>LIA</record_name>
+        <reverted_from/>
+        <source>c0a95638975031107f4abb5ef053af81</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 20:56:38</sys_created_on>
+        <sys_id>829a1b75979431107f4abb5ef053af40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1899e4a069b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 20:56:38</sys_updated_on>
+        <type>Number</type>
+        <update_guid>ca9a1b75e99431102035b766e8ef333f</update_guid>
+        <update_guid_history>ca9a1b75e99431102035b766e8ef333f:-261522779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 20:08:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>12af5b726bad4600898be8a9e89b3100</sys_id>
+        <sys_metadata>359a1b75979431107f4abb5ef053af2a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LIA</sys_name>
+        <sys_package display_value="IPLookup" source="x_1068059_iplookup">cca99ef0975031107f4abb5ef053af83</sys_package>
+        <sys_parent display_value="">240adf35979431107f4abb5ef053af90</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</sys_scope>
+        <sys_scope_delete display_value="">3f54fd45ba894b339f63bd40127b72e1</sys_scope_delete>
+        <sys_update_name>sys_number_359a1b75979431107f4abb5ef053af2a</sys_update_name>
+        <sys_update_version display_value="sys_number_359a1b75979431107f4abb5ef053af2a">829a1b75979431107f4abb5ef053af40</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 20:08:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

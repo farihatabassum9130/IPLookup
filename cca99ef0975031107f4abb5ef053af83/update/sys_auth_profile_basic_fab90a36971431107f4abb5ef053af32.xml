@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Integration User Target</name>
+        <password>﷞﷟﷒35ea8730979221107f4abb5ef053af23﷬﷔1﷬﷭wYUPHHl2tou5vZCnAaajkw==Vjxwp5UhQnQEzK5s4Yfvav00b5tyGIC6u3b-_WrBdTJG7H39K9EiFPiWy7sWTIiW8woijfUGx8zirdPdT0pdp7SMzd1yC2NCfx79S9wgRZK4GQfT5EFpafYTeU_lI87mkL6XBp4Cx_3-_Ec=﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-31 17:40:14</sys_created_on>
+        <sys_id>fab90a36971431107f4abb5ef053af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration User Target</sys_name>
+        <sys_package display_value="IPLookup" source="x_1068059_iplookup">cca99ef0975031107f4abb5ef053af83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_fab90a36971431107f4abb5ef053af32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-31 17:40:14</sys_updated_on>
+        <username>integration.user</username>
+    </sys_auth_profile_basic>
+</record_update>

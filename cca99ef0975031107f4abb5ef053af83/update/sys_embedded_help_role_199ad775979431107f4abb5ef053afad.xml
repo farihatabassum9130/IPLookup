@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1068059_iplookup.liaison_agency_user" name="x_1068059_iplookup.liaison_agency_user">d99ad3fd975431107f4abb5ef053afa2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 20:56:36</sys_created_on>
+        <sys_id>199ad775979431107f4abb5ef053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d99ad3fd975431107f4abb5ef053afa2</sys_name>
+        <sys_package display_value="IPLookup" source="x_1068059_iplookup">cca99ef0975031107f4abb5ef053af83</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</sys_scope>
+        <sys_update_name>sys_embedded_help_role_199ad775979431107f4abb5ef053afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 20:56:36</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

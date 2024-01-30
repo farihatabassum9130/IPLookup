@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ipaddressinfo" label="City" language="en" table="x_1068059_iplookup_ipaddressinfo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ipaddressinfo</element>
+            <help/>
+            <hint/>
+            <label>City</label>
+            <language>en</language>
+            <name>x_1068059_iplookup_ipaddressinfo</name>
+            <plural>Cities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 19:32:19</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>City</sys_name>
+            <sys_package display_value="IPLookup" source="x_1068059_iplookup">cca99ef0975031107f4abb5ef053af83</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IPLookup">cca99ef0975031107f4abb5ef053af83</sys_scope>
+            <sys_update_name>sys_documentation_x_1068059_iplookup_ipaddressinfo_ipaddressinfo_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 20:02:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
